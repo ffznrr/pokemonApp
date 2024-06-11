@@ -24,7 +24,7 @@ const Pokemons = () => {
   };
 
   return (
-    <div className="min-w-screen py-10 px-24">
+    <div className="min-w-screen py-10 px-18">
       <div className="grid grid-cols-2 gap-4 ">
         {pokemon.map((data, index) => (
           <button

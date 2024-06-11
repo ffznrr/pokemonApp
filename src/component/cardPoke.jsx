@@ -37,7 +37,7 @@ const CardPoke = () => {
             <div className="px-10 h-24 flex justify-center ">
               <div className="mx-5">
                 <img
-                  className=" w-40"
+                  className="w-40 h-40"
                   src={data.sprites && data.sprites.front_default}
                   alt="test"
                 />
@@ -78,7 +78,7 @@ const CardPoke = () => {
       <div className="text-center mt-5">
         {data.name ? (
           <button
-            className="border-4 rounded-xl px-3 bg-yellow-200 text-black hover:text-white hover:bg-black md:mt-10"
+            className="border-4 rounded-xl px-3 bg-yellow-200 text-black hover:text-white hover:bg-black min-[360px]:mt-5 sm:mt-10"
             onClick={() => handleData()}
           >
             Reset
